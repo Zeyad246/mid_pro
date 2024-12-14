@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 st.set_page_config(layout='wide')
-df=pd.read_csv('mid project')
+df=pd.read_csv('mid project.csv')
 tab1 , tab2 , tab3 ,tab4 ,tab5=st.tabs(['work_year', 'jobs' , 'salary' , 'countries' , 'Contracts'])
 with tab1:
     col1 , col2 , col3 =st.columns(3)
